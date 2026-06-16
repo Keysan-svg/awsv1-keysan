@@ -1,0 +1,5 @@
+aws_region       = "eu-west-3"
+vpc_id                   = "vpc-0ebcdb39f7a526ef9"
+keysan_vm_image          = "ami-0e207c18bb303cc68"
+keysan_vm_instance_type  = "t3.micro"
+keysan_ssh_public_key_path = "/home/kali/.ssh/id_ed25519.pub"

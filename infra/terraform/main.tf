@@ -15,7 +15,7 @@ locals {
 
 resource "aws_key_pair" "keysan_keypair" {
   key_name   = "keysan-keypair"
-  public_key = file(pathexpand(var.keysan_ssh_public_key_path))
+  public_key = file(var.keysan_ssh_public_key_path)
 }
 
 resource "aws_security_group" "keysan_bastion_sg" {
